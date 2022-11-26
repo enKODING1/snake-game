@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>snake</title>
+	<style>
+		* {
+			padding: 0;
+			margin: 0;
+
+		}
+
+		body {
+			width: 100%;
+			height: 100%;
+			overflow: hidden;
+		}
+
+		#canvas {
+			background-color: black;
+			width: 100%;
+			height: 100vw;
+		}
+
+		#ipod {
+			margin-top: 5%;
+			/* border: 3px solid blue; */
+			border-radius: 15px;
+			padding: 1%;
+			width: 40%;
+			height: 70vh;
+			display: grid;
+			grid-template-rows: 1.5fr 2fr;
+			background: rgb(238, 174, 202);
+			background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(213, 224, 240, 1) 0%, rgba(224, 224, 224, 1) 100%);
+		}
+
+		.screen {
+			border: 2px solid black;
+			width: 95%;
+			height: 90%;
+			margin: 0 auto;
+			border-radius: 5px;
+		}
+
+		.body {
+			border: 3px solid green;
+			width: 100%;
+			height: 100%;
+		}
+	</style>
+</head>
+
+<body>
+
+	<!-- <div class="score_counter">
+		<div class="score"></div>
+	</div> -->
+	<script src="./snake.js"></script>
+</body>
+
+</html>
