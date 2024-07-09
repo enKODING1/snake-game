@@ -1,6 +1,6 @@
 # Classic Snake Game
 Javascript로 만든 클래식한 뱀 게임입니다. <br>
-[play snake game](https://enkoding1.github.io/snake_game_js)
+[play snake game](https://enkoding1.github.io/snake_game)
 
 # How to play
 - up: 화살표 위
